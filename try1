@@ -1,0 +1,11 @@
+while True: 
+    usr_command1 = input("User 1 Please pick Rock, Paper or Scissor ")
+    usr_command2 = input("User 2 Please pick Rock, Paper or Scissor ")
+    if usr_command1 == "quit":
+      break
+    else: 
+      print("User 1 typed " + usr_command1)
+    if usr_command2 == "quit":
+      break
+    else: 
+      print("User 1 typed " + usr_command2)
